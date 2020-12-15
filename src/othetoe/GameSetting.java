@@ -207,7 +207,11 @@ public class GameSetting extends JPanel {
                      p2powers = new PowerUpPanel(10, 455, 290, 51,2);
                      Main.p2.add(p2powers);
                      Main.p2.add(Main.p2.pointLabel);
-                     
+
+                     MyLabel info1 = new MyLabel("Straight : " + straightAmmount + " | Win Point : " + pointToWin , 10, 420, 280, 20, MyColor.netral, font.deriveFont(Font.PLAIN, 15), true);
+                     Main.p1.add(info1);
+                     MyLabel info2 = new MyLabel("Straight : " + straightAmmount + " | Win Point : " + pointToWin , 10, 420, 280, 20, MyColor.netral, font.deriveFont(Font.PLAIN, 15), true);
+                     Main.p2.add(info2);
                      Main.gameLayer.revalidate();
                      Main.gameLayer.repaint();
                   }

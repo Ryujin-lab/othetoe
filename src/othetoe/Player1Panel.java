@@ -201,6 +201,7 @@ public class Player1Panel extends JPanel {
       g2d.drawRect(250, 595, 50, 5);
       g2d.drawRect(200, 590, 100, 10);
 
+      g2d.drawLine(10, 445, 300-10, 445);
       g2d.drawLine(100, 450, 50+250, 450);
       g2d.drawLine(50, 520, 50+250, 520);
 

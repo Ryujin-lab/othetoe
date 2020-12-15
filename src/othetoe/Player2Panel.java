@@ -199,6 +199,7 @@ public class Player2Panel extends JPanel{
       g2d.drawRect(295, 550, 5, 50);
       g2d.drawRect(290, 500, 10, 100);
 
+      g2d.drawLine(10, 445, 300-10, 445);
       g2d.drawLine(0, 450, 250-50, 450);
       g2d.drawLine(0, 520, 250, 520);
 

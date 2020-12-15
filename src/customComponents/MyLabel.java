@@ -11,7 +11,6 @@ public class MyLabel extends JLabel {
    }
 
    public MyLabel(String text,int x, int y,int w,int h, Color c, Font f, boolean center){
-      
       super(text, SwingConstants.CENTER);
       setup(x,y,w,h,c,f);
    }
@@ -22,3 +21,4 @@ public class MyLabel extends JLabel {
       this.setForeground(c);
    }
 }
+
